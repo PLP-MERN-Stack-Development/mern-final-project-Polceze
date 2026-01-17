@@ -8,7 +8,7 @@ Quizzar is a comprehensive, AI-powered digital examination platform designed to 
 
 - **Live app**: [https://quizzar-black.vercel.app](https://quizzar-black.vercel.app)
 
-## ✨ Key Features
+## Key Features
 
 ### AI-Powered Question Generation
 - **Smart Content Creation**: Generate high-quality questions from study materials using Gemini AI
@@ -39,7 +39,7 @@ Quizzar is a comprehensive, AI-powered digital examination platform designed to 
 - **Student Enrollment**: Streamlined student management and unit enrollment
 - **Result Management**: Controlled result release with bulk operations
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend
 [![Node.js](https://img.shields.io/badge/Node.js-18.0%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
@@ -171,7 +171,7 @@ POST /api/student/exams/:id/attempt     # Submit exam attempt
 GET /api/student/analytics              # Performance analytics
 ```
 
-## 🗄 Database Models
+## Database Models
 
 ### Core Entities
 - **User**: Authentication and role management
