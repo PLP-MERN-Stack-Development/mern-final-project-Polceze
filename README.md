@@ -53,7 +53,7 @@ Quizzar is a comprehensive, AI-powered digital examination platform designed to 
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4%2B-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 
 ### AI & External Services
-[![Google Gemini AI](https://img.shields.io/badge/Google_Gemini_AI-Generative_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
+[![Anthropic Claude API (claude-3-haiku model)](https://img.shields.io/badge/Anthropic_Claude_API-claude_3_haiku_model-4285F4?style=for-the-badge&logo=claude&logoColor=white)](https://platform.claude.com/)
 [![PDF.js](https://img.shields.io/badge/PDF.js-Document_Parsing-FC0D0D?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://mozilla.github.io/pdf.js/)
 
 ### Deployment
