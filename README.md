@@ -1,46 +1,39 @@
 # Quizzar - AI-Powered Examination Platform
 
-<div align="center">
-
-[![PLP Final Project](https://img.shields.io/badge/PLP-July'25-Final--8A2BE2?style=for-the-badge)](https://www.powerlearnprojectafrica.org/)[![SDG 4 - Quality Education](https://img.shields.io/badge/SDG-4_Quality_Education-0A96D6?style=for-the-badge&logo=un&logoColor=white)](https://sdgs.un.org/goals/goal4)[![Academic Project](https://img.shields.io/badge/Final-Project-8A2BE2?style=for-the-badge)](https://github.com/polceze/quizzar)
-
-</div>
-
-## 🎯 Overview
+## Overview
 
 Quizzar is a comprehensive, AI-powered digital examination platform designed to revolutionize how educational institutions administer exams. Built with modern web technologies, Quizzar provides a secure, scalable, and intelligent solution for creating, managing, and taking exams while maintaining academic integrity.
 
-## 🚀 Live Demos
+## Live
 
-- **Frontend**: [https://quizzar-black.vercel.app](https://quizzar-black.vercel.app) (Vercel)
-- **Backend API**: [https://quizzar-llj0.onrender.com](https://quizzar-llj0.onrender.com) (Render)
+- **Live app**: [https://quizzar-black.vercel.app](https://quizzar-black.vercel.app)
 
 ## ✨ Key Features
 
-### 🧠 AI-Powered Question Generation
+### AI-Powered Question Generation
 - **Smart Content Creation**: Generate high-quality questions from study materials using Gemini AI
 - **Multiple Question Types**: Support for MCQs, True/False, and Short Answer questions
 - **Difficulty Customization**: Set question difficulty levels (Easy, Medium, Hard)
 - **Batch Generation**: Create multiple questions simultaneously with configurable counts
 
-### 🎯 Role-Based Access Control
+### Role-Based Access Control
 - **School Administrators**: Manage teachers, oversee school operations, and monitor performance
 - **Teachers**: Create units, generate questions, schedule exams, and analyze student performance
 - **Students**: Take exams, view results, track progress, and receive personalized feedback
 
-### 🔒 Secure Examination Environment
+### Secure Examination Environment
 - **Violation Monitoring**: Real-time proctoring during exams
 - **Time Management**: Configurable exam durations and scheduling
 - **Randomization**: Option to randomize question order for integrity
 - **Multiple Attempt Control**: Flexible attempt policies per exam
 
-### 📊 Advanced Analytics
+### Advanced Analytics
 - **Student Analytics**: Personalized performance insights and progress tracking
 - **Teacher Analytics**: Comprehensive class performance metrics and exam statistics
 - **Real-time Monitoring**: Live exam progress tracking
 - **Detailed Reporting**: Exportable performance reports and analytics
 
-### 🏫 School Management
+### School Management
 - **Multi-School Support**: Platform supports multiple educational institutions
 - **Teacher Approval Workflow**: School admins manage teacher registrations
 - **Student Enrollment**: Streamlined student management and unit enrollment
@@ -71,7 +64,7 @@ Quizzar is a comprehensive, AI-powered digital examination platform designed to 
 [![PNPM](https://img.shields.io/badge/PNPM-10.0%2B-F69220?style=for-the-badge&logo=pnpm&logoColor=white)](https://pnpm.io)
 [![ESLint](https://img.shields.io/badge/ESLint-Code_Quality-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)](https://eslint.org)
 
-## 📁 Project Architecture
+## Project Architecture
 
 ```text
 quizzar/
@@ -93,7 +86,7 @@ quizzar/
         └── utils/          # API clients & helpers
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18.0.0 or higher
@@ -148,7 +141,7 @@ npm run dev
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:5000
 
-## 🔧 API Documentation
+## API Documentation
 
 ### Authentication Endpoints
 ```http
@@ -189,7 +182,7 @@ GET /api/student/analytics              # Performance analytics
 - **StudentExamAttempt**: Exam submissions and results
 - **Result**: Performance tracking and analytics
 
-## 🎨 Key Components
+## Key Components
 
 ### Teacher Features
 - **Exam Creation Wizard**: Intuitive exam builder with AI assistance
@@ -209,7 +202,7 @@ GET /api/student/analytics              # Performance analytics
 - **Teacher Approval**: Registration workflow management
 - **System Oversight**: Platform monitoring and analytics
 
-## 🔒 Security Features
+## Security Features
 
 - JWT-based authentication with secure token management
 - Role-based access control (RBAC) for all operations
@@ -218,7 +211,7 @@ GET /api/student/analytics              # Performance analytics
 - Secure password hashing with bcrypt
 - Exam violation detection and monitoring
 
-## 🤖 AI Integration
+## AI Integration
 
 Quizzar leverages Google's Gemini AI for intelligent question generation:
 
@@ -227,7 +220,7 @@ Quizzar leverages Google's Gemini AI for intelligent question generation:
 - **Quality Control**: Validation and structuring of AI-generated content
 - **Modification Tracking**: Monitor human edits to AI-generated questions
 
-## 📈 Performance & Analytics
+## Performance & Analytics
 
 ### Real-time Monitoring
 - Live exam progress tracking
@@ -240,7 +233,7 @@ Quizzar leverages Google's Gemini AI for intelligent question generation:
 - Question effectiveness analysis
 - Exportable reports in multiple formats
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Build
 ```bash
@@ -261,7 +254,7 @@ Configure production environment variables for:
 - CORS origins
 - Server ports
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please follow the below steps:
 
@@ -272,18 +265,19 @@ We welcome contributions! Please follow the below steps:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## Support
 
 For support and questions:
 - 📧 Email: paulo.odera@gmail.com
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- Google Gemini AI for question generation capabilities
+- Anthropic Claude API (claude-3-haiku model) for question generation capabilities
 - MongoDB Atlas for database hosting
 - Render & Vercel for deployment platforms
 - The open-source community for invaluable tools and libraries
